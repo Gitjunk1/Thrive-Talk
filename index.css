@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Larsseit-Bold.eot";
+    src: url("./assets/fonts/Larsseit-Bold.eot") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit-Bold.ttf";
+    src: url("./assets/fonts/Larsseit-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit-Bold.woff";
+    src: url("./assets/fonts/Larsseit-Bold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit-Bold.woff2";
+    src: url("./assets/fonts/Larsseit-Bold.woff2") format("truetype");
+}
+@font-face {
+    font-family: "Larsseit-Medium.eot";
+    src: url("./assets/fonts/Larsseit-Medium.eot") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit-Medium.ttf";
+    src: url("./assets/fonts/Larsseit-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit-Medium.woff";
+    src: url("./assets/fonts/Larsseit-Medium.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit-Medium.woff2";
+    src: url("./assets/fonts/Larsseit-Medium.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit.eot";
+    src: url("./assets/fonts/Larsseit.eot") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit.ttf";
+    src: url("./assets/fonts/Larsseit.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit.woff";
+    src: url("./assets/fonts/Larsseit.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Larsseit.woff2";
+    src: url("./assets/fonts/Larsseit-Bold.woff2") format("truetype");
+}
+
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+body {
+    background-color: #f1f1f1;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-family: "Larsseit-Bold", sans-serif;
+    font-size: 16px;
+}
+ 
+.container {
+    width: 1720px;
+}
+
+.header__wrapper {
+    display: grid;
+    /* width: 1117px; */
+    height: 840px;
+    background-color: #F4F9E2;
+}
+
+.header__top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+.header__logo {
+    
+}
+
+.logo__link{
+    display: flex;
+    margin: 30px 0 0 180px;
+}
+
+
+.header__navigation {
+    display: flex;
+    margin: 40px 0 0 230px;
+}
+
+.cell__list-link {
+    border-radius: 40px;
+    font-family: "Muli-ExtraBold";
+    padding: 0 38px;
+    text-align: left;
+    line-height: 1.05;
+    color: white;
+}
+
+
+.nav__list {
+    display: flex;
+    color: transparent;
+    font-family: "Larsseit-Bold.woff";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.nav__list-item {
+}
+
+.nav__list-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+.nav__list-link {
+    color: #22356F;
+}
+
+.header__img{
+    position: absolute;
+    right: 200px;
+    max-width: 972px;
+    height: 876px;
+}
